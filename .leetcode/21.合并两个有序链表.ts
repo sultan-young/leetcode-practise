@@ -17,6 +17,7 @@
  * }
  */
 
+// 思路，一直迭代两个链表，比较当前两个链表的头部元素大小，小的插入到我们的结果列表中。
 function mergeTwoLists(list1: ListNode | null, list2: ListNode | null): ListNode | null {
     const preHead = new ListNode(-1);
     let prev = preHead;
